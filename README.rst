@@ -78,7 +78,7 @@ You can install libnmap via pip::
 
 or via git::
 
-    $ git clone https://github.com/savon-noir/python-libnmap.git
+    $ git clone https://github.com/iotsploit/python-libnmap.git
     $ cd python-libnmap
     $ python setup.py install
 
