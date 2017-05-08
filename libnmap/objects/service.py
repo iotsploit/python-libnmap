@@ -184,6 +184,15 @@ class NmapService(object):
         return self._service['name'] if 'name' in self._service else ''
 
     @property
+    def devicetype(self):
+        """
+            Accessor for device type.
+
+            :return: string or empty
+        """
+        return self._service['devicetype'] if 'devicetype' in self._service else ''
+
+    @property
     def service_dict(self):
         """
             Accessor for service dictionary.
